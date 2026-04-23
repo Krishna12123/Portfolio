@@ -1,5 +1,5 @@
 import React from "react";
-
+import Skill from "./skill";
 export default function Portfolio() {
   return (
     <div className="bg-black text-white min-h-screen font-sans">
@@ -14,7 +14,7 @@ export default function Portfolio() {
       </nav>
 
       {/* Hero */}
-      <section className="text-center py-24 px-4">
+      <section className="ml-45 mt-40 ">
         <h2 className="text-4xl md:text-5xl font-bold">Hi, I'm Krishna Shukla</h2>
         <p className="mt-4 text-gray-400">
           Full-Stack Developer | Building clean web experiences
@@ -28,7 +28,7 @@ export default function Portfolio() {
       </section>
 
       {/* About */}
-      <section id="about" className="py-20 px-6 max-w-3xl mx-auto text-center">
+      <section id="about" className="py-20 px-30 mt-40 max-w-3xl mx-auto text-center">
         <h2 className="text-2xl font-semibold mb-4">About Me</h2>
         <p className="text-gray-400">
           I am a Full-Stack Developer skilled in React, Tailwind, JavaScript, and Django. I
@@ -37,23 +37,22 @@ export default function Portfolio() {
       </section>
 
       {/* Skills */}
-      <section className="py-20 px-6 text-center">
-        <h2 className="text-2xl font-semibold mb-6">Skills</h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {["React", "Tailwind", "JavaScript", "Django", "Git","C","C++","Python","Framer-Motion"].map((skill) => (
-            <span
-              key={skill}
-              className="bg-gray-800 px-4 py-2 rounded-lg"
-            >
-              {skill}
-            </span>
-          ))}
-        </div>
-      </section>
+      <h2 className="text-2xl font-semibold mb-4 text-center">Skills</h2>
+      <div className="flex flex-wrap  gap-20 items-center justify-center mt-20 ">
+        <Skill name = "React"/>
+        <Skill name = "Tailwind"/>
+        <Skill name = "JavaScript"/>
+        <Skill name = "Django"/>  
+        <Skill name = "C"/>
+        <Skill name = "C++"/>   
+       
+        <Skill name = "Python"/>
+      </div>
+
 
       {/* Projects */}{/*project is created component later*/ }
       <section id="projects" className="py-20 px-6 max-w-6xl mx-auto">
-        <h2 className="text-2xl font-semibold text-center mb-10">
+        <h2 className="text-2xl font-semibold text-center mb-10 mt-30">
           Project Showcase
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
