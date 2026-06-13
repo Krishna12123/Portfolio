@@ -21,3 +21,8 @@ Improvements:-
   Is this is last push of this project?
   Answer is no I will definitely make changes to make this the best portfolio website 
   probably make changes in UI , add some more animation things and code management by creating component and make that code clean and understandable
+
+  Deployment:- 
+  After pushing the code on github.
+  I deploy this on [
+](https://chimerical-tanuki-675b4c.netlify.app)
