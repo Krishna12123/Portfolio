@@ -24,5 +24,4 @@ Improvements:-
 
   Deployment:- 
   After pushing the code on github.
-  I deploy this on [
-](https://chimerical-tanuki-675b4c.netlify.app)
+  I deploy this on https://chimerical-tanuki-675b4c.netlify.app
